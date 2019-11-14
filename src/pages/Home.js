@@ -109,6 +109,17 @@ const HomePage = props => {
             <IonLabel>Google</IonLabel>
           </IonItem>
           <IonListHeader>
+            <IonLabel>Virtualization</IonLabel>
+          </IonListHeader>
+          <IonItem href="https://ionicframework.com/docs/layout/structure" target="_blank">
+            <IonIcon slot="start" color="medium" src="/assets/doc.svg" />
+            <IonLabel>Docker</IonLabel>
+          </IonItem>
+          <IonItem href="https://ionicframework.com/docs/theming/basics" target="_blank">
+            <IonIcon slot="start" color="medium" src="/assets/kub.svg" />
+            <IonLabel>Kubernetes</IonLabel>
+          </IonItem>
+          <IonListHeader>
             <IonLabel>OS</IonLabel>
           </IonListHeader>
           <IonItem href="https://ionicframework.com/docs/theming/basics" target="_blank">
